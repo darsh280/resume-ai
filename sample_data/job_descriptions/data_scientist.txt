@@ -1,0 +1,21 @@
+Data Scientist – Analytics Corp
+
+We are looking for a Data Scientist with 2+ years of experience to analyze data and build predictive models.
+
+Responsibilities:
+- Analyze large datasets to extract business insights
+- Build and validate machine learning models
+- Perform A/B testing and statistical analysis
+- Create data visualizations and executive dashboards
+- Work with SQL databases and big data tools
+- Communicate findings to stakeholders
+
+Required Qualifications:
+- Bachelor's or Master's degree in Statistics, Mathematics, or Computer Science
+- 2+ years of data science or analytics experience
+- Proficiency in Python and R
+- Strong SQL skills
+- Experience with machine learning and statistical modeling
+
+Required Skills:
+Python, R, SQL, pandas, NumPy, scikit-learn, matplotlib, seaborn, Tableau, XGBoost, machine learning, statistics, PostgreSQL, Jupyter

@@ -1,0 +1,21 @@
+Machine Learning Engineer – AI Dynamics
+
+We are seeking a skilled Machine Learning Engineer with 3+ years of experience to build and deploy ML systems.
+
+Responsibilities:
+- Design, train, and deploy machine learning models in production
+- Build NLP pipelines using transformers and language models
+- Implement semantic search and text classification systems
+- Build ML pipelines using MLflow and Apache Airflow
+- Optimize model performance and inference latency
+- Collaborate with data engineers and backend teams
+
+Required Qualifications:
+- Master's or PhD in Computer Science, AI, or related field
+- 3+ years of experience in machine learning or data science
+- Strong proficiency in Python and ML frameworks
+- Experience with deep learning and NLP
+- Knowledge of MLOps practices and tools
+
+Required Skills:
+Python, PyTorch, TensorFlow, scikit-learn, NLP, BERT, transformers, HuggingFace, pandas, NumPy, MLflow, Docker, AWS, spaCy, SQL, machine learning, deep learning
