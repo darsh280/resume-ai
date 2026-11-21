@@ -1,0 +1,103 @@
+================================================================================
+ResumeAI – Voiceover Recording Script (Timed for resume_ai_demo.mp4)
+Total Duration: ~3 Minutes 5 Seconds (185 Seconds)
+================================================================================
+
+HOW TO RECORD:
+1. Open your phone voice recorder (or Audacity / Voice Recorder on Windows).
+2. Play the video 'resume_ai_demo.mp4' on screen.
+3. Read the script lines below following each scene's timestamp.
+4. Save the recording as 'my_voice.mp3' in the demo_video folder.
+5. Run: python add_voiceover.py
+It will automatically merge your voice with the 1080p video!
+
+--------------------------------------------------------------------------------
+[SCENE 1: 00:00 - 00:15] Project Overview & Title Slide (15 seconds)
+--------------------------------------------------------------------------------
+(Speak in a confident, clear tone):
+
+"Hello everyone! Welcome to the technical demonstration of ResumeAI – an AI-Based 
+Resume Matching and Candidate Ranking System, developed as a technical 
+assignment for the AI and Full Stack Developer Internship.
+
+ResumeAI is a production-ready recruitment platform that evaluates resumes using 
+genuine natural language processing, semantic sentence embeddings, and an 
+explainable 4-component scoring engine. Zero mock scores, completely transparent."
+
+--------------------------------------------------------------------------------
+[SCENE 2: 00:15 - 00:40] Recruiter Dashboard & Analytics (25 seconds)
+--------------------------------------------------------------------------------
+"Starting with Module 1 – the Recruiter Dashboard.
+
+When a recruiter logs in, they are greeted with real-time KPI metrics aggregated 
+directly from our SQLite database via FastAPI. We can see 14 resumes processed, 
+an average match score of 55.7%, and our current top-scoring candidate, 
+Alex Johnson, at 85.2%. 
+
+Below that, recruiters can track previous analysis sessions, review batch benchmarks, 
+and quickly navigate to new requisition pipelines."
+
+--------------------------------------------------------------------------------
+[SCENE 3: 00:40 - 01:10] Job Description & Skill Extraction (30 seconds)
+--------------------------------------------------------------------------------
+"In Module 2, recruiters can define a job requisition by pasting raw text or uploading 
+a text file. 
+
+Here we are targeting a Senior Full Stack Developer role requiring 5+ years of experience.
+Our NLP skill extractor scans the text against our curated 100+ technology taxonomy, 
+automatically identifying 23 core skills including Python, React, FastAPI, Docker, 
+Kubernetes, AWS, and PostgreSQL.
+
+It normalizes aliases—like mapping 'react.js' to 'react'—eliminating manual tagging 
+and human error."
+
+--------------------------------------------------------------------------------
+[SCENE 4: 01:10 - 01:40] Bulk Resume Upload & Document Parsing (30 seconds)
+--------------------------------------------------------------------------------
+"Module 3 handles Bulk Resume Uploads.
+
+Recruiters can drag and drop 10 to 20 resumes in either PDF or DOCX format. 
+We implemented a dual-engine parser using PyMuPDF for PDFs and python-docx for DOCX files.
+
+The parser automatically extracts candidate names, contact details, dates to calculate 
+years of experience, structural sections, and technical skills—with built-in file validation 
+and duplicate detection."
+
+--------------------------------------------------------------------------------
+[SCENE 5: 01:40 - 02:15] Candidate Ranking Leaderboard (35 seconds)
+--------------------------------------------------------------------------------
+"Module 5 presents the Ranked Candidate Leaderboard.
+
+Every candidate is evaluated and sorted from highest to lowest matching score. 
+Alex Johnson takes the top spot with an 85.2% match, earning an 'Excellent Match' 
+screening recommendation. 
+
+Blake Thomas follows at 81.4%, and Sam Anderson at 78.9% as 'Good Matches'.
+Recruiters can sort by any column, search by candidate name or specific skill, 
+and see instant matched versus missing skill previews for rapid shortlisting."
+
+--------------------------------------------------------------------------------
+[SCENE 6: 02:15 - 02:50] Candidate Deep Dive & Explainable Scoring (35 seconds)
+--------------------------------------------------------------------------------
+"Clicking into Alex Johnson opens Module 6 – Candidate Deep Dive.
+
+This is where our Explainable AI shines. Instead of a black-box number, the recruiter sees 
+a 4-axis radar chart and breakdown bars reflecting our mathematical scoring formula:
+40% Semantic Similarity via all-MiniLM-L6-v2 embeddings,
+35% Technical Skill Match with 22 of 23 required skills matched,
+15% Relevant Experience, where Alex exceeds the 5-year requirement with 7 years,
+and 10% Education for his Master's in Computer Science.
+
+We also clearly flag the one missing skill gap: HTML."
+
+--------------------------------------------------------------------------------
+[SCENE 7: 02:50 - 03:05] Automated Exports & Conclusion (15 seconds)
+--------------------------------------------------------------------------------
+"Finally, in Module 8, recruiters can export the entire ranking table to CSV or download 
+a high-resolution candidate PDF report generated with ReportLab.
+
+ResumeAI demonstrates a complete, working full-stack implementation combining robust 
+backend logic, real NLP embeddings, and transparent hiring metrics.
+
+Thank you for your time and review!"
+================================================================================
