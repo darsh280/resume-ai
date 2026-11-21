@@ -49,3 +49,7 @@ Thumbs.db
 # Hugging Face / Cache
 .cache/
 huggingface/
+
+# Video build artifacts
+demo_video/temp_frames/
+demo_video/concat_list.txt
